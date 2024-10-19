@@ -5,18 +5,18 @@ Welcome to my home lab project! This repository documents my home lab setup, whi
 
 ## Components
 ### NAS (TrueNAS Scale)
-- **Purpose**: Centralized storage for backups and media files.
-- **Key Features**: ZFS filesystem, snapshots, Docker support.
+- **Purpose**: Centralized storage for backups and file transfers.
+- **Key Features**: ZFS filesystem, Docker support, Virtual machines.
 
 ### Main Server (Proxmox)
 - **Purpose**: Hosts multiple virtual machines and containers.
-- **Key Features**: KVM and LXC virtualization, web-based management, backup capabilities.
+- **Key Features**: KVM and LXC virtualization, web-based management, snap and backup capabilities.
 
 ## Technologies Used
 - **Virtualization**: Proxmox, KVM, LXC
-- **Containerization**: Docker
+- **Containerization**: Docker,Portainer
 - **Storage**: TrueNAS Scale, ZFS
-- **Networking**: [Describe your network setup briefly]
+- **Networking**: 
 
 ## Future Plans
 - Exploring Kubernetes for container orchestration.
@@ -33,6 +33,3 @@ Welcome to my home lab project! This repository documents my home lab setup, whi
 
 ## Contributing
 Feel free to contribute by submitting issues or pull requests! Any feedback or suggestions are welcome.
-
-## License
-[Specify the license for your repository, if applicable.]
